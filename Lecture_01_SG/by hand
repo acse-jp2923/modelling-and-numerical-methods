@@ -1,0 +1,26 @@
+# By hand...
+
+
+
+## Lecture 1
+
+
+1. Grad, Div, Curl, Dot, Cross, Laplacian For vectors
+2. ==For Tensors==
+
+   1. Addition and Subtraction
+   2. Multiplication
+   3. Grad of a Tensor; $\nabla$Tensor
+   4. Divergence of a tensor; $\nabla$　。Tensor
+   5. Laplacian of a Tensor; $\nabla$²Tensor 
+3. Understand notation
+4. Change of basis for Vectors
+
+
+## Lecture 2
+
+1. Understand .Normal notation for planes
+2. Decompose a rank 2 tensor into symmetric and anti-symmetric components
+3. Find the 3x3/2x2 matrix representing stress on a given plane.
+4. Change of basis for Rank-2 Tensors
+5. *Calculate the shear and normal stresses on a plane???*

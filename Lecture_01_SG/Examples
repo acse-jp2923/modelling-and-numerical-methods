@@ -1,0 +1,165 @@
+# Examples
+
+
+## grad ∇
+
+
+F = f(x,y,z) 
+ grad F = ∇F = 
+
+```
+ | df/dx |
+ | df/dy |
+ | df/dz |
+```
+
+## Laplacian ∇^2^
+
+
+F = f(x,y,z) 
+ Laplacian F = ∇^2^F = 
+
+```
+ | d²f/dx² |
+ | d²f/dy² |
+ | d²f/dz² |
+```
+
+## Divergence ∇ . F
+
+```
+F = 
+| eˣ   |
+| y·z  |
+| -yz² |
+```
+
+```
+∇ . F = 
+| d/dx(eˣ)   |
+| d/dy(y·z)  |
+| d/dz(-yz²) |
+=
+| eˣ  |
+| z |
+| -2yz |
+```
+
+```
+Curl at P(0,2,-1):
+=
+|| e⁰      ||
+|| -1      ||
+|| -2·2·-1 ||
+=
+||  1  ||
+|| -1  ||
+||  4  ||
+= 4
+```
+
+## Curl ∇ x F
+
+```
+F = 
+| x²z   |
+| eʸ+xz |
+| xyz   |
+```
+
+```
+∇ x F = 
+|  i     j      k    |
+|  d/dx  d/dy   d/dz |
+|  x²z   eʸ+xz  xyz  |
+Now find the determinant!
+
+OR...
+
+F = 
+| x²z   |   | P |
+| eʸ+xz | = | Q |
+| xyz   |   | R |
+
+∇ x F(P, Q, R) = 
+| i     j      k    |
+| d/dx  d/dy   d/dz |
+| P     Q      R    |
+
+Now find the determinant!
+```
+
+```
+|  i     j      k    | i     j     |
+|  d/dx  d/dy   d/dz | d/dx  d/dy  |
+|  x²z   eʸ+xz  xyz  | x²z   eʸ+xz |
+
+etc...
+
+etc...
+
+= 
+|  xz-x  |
+|  x²-yz |
+|  z     |
+```
+
+
+
+## Change of basis
+
+Change of basis:
+
+- Initial
+
+  - You have a Vector V 
+  - It is in Base B1
+  - You want it in Base B2
+
+- Calculate
+
+  V@B1⁻¹@B2
+
+  
+
+
+
+
+
+## -list-
+------
+
+1. ==Grad, Div, Curl, Dot, Cross, Laplacian==
+  ==For vectors==/tensors
+2. ==Understand notation==
+3. ==Understand key terms:
+  EG trace, ortho-normal==
+4. ==Change of basis==
+5. 
+
+  ?div = trace of the grad of a vector?
+  ?div = trace of the grad of a rank-2 tensor?
+
+  
+
+## Untitled
+
+Vector A:
+|1|
+|2|
+has basis B1
+
+```
+| 1 0 |
+| 0 1 |
+```
+
+Transforming to basis B2:
+
+```
+| 1 0 |
+| 0 4 |
+```
+
+is just:
+Basis B2 * Vector A g
